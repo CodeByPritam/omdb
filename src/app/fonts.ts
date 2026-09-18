@@ -44,6 +44,8 @@ export const cascadiaCode = Cascadia_Code({
     style: ['normal', 'italic'],
     variable: '--font-cascadia-code',
     display: 'swap',
+    fallback: ['monospace'],
+    adjustFontFallback: false,
 });
 
 // Load Font ({ Geist })

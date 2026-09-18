@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 // NextJS Root Layout
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode; }>) {
 	return (
-		<html lang="en" className={`${geist.variable} ${sora.variable} ${cascadiaCode.variable} `}>
+		<html lang="en" className={`${geist.variable} ${sora.variable} ${cascadiaCode.variable}`}>
 			<head>
 				<link rel="icon" href="/favicon/favicon.svg" type="image/x-icon"></link>
 				<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png"></link>
