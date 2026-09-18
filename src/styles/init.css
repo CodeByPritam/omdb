@@ -1,0 +1,147 @@
+/* ================================================ */
+/* =========== Application Root: Begin ============ */
+/* ================================================ */
+.__omdb {
+    background: var(--white-color);
+    height: 100dvh;
+}
+
+/* ============================================= */
+/* =============== Header: Begin =============== */
+/* ============================================= */
+header#__header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 99;
+    height: 56px;
+    background: var(--white-color);
+    border-bottom: 1px solid var(--zink-color-200);
+    overflow: hidden;
+}
+
+.inner {
+    width: 100%;
+    height: 100%;
+    max-width: 1280px;
+    margin: 0px auto;
+    padding: 0px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* ====== ({ Header LSB: Logo }) ====== */
+a.lsb.site-logo {
+    display: flex;
+    cursor: pointer;
+}
+
+a.lsb.site-logo img {
+    height: 28px;
+    width: auto;
+    object-fit: cover;
+}
+
+/* ====== ({ Header MSB: Main Menu }) ====== */
+.msb.main-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 24px;
+}
+
+a.elm:hover { color: var(--primary-color); }
+a.elm {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: #696969;
+    padding: 4px 0px;
+    transition: all .1s ease-in-out;
+}
+
+a.elm.active { 
+    color: var(--primary-color); 
+    font-weight: 500 !important; 
+}
+
+/* ====== ({ Header RSB }) ====== */
+.rsb {
+    display: flex;
+    align-items: center;
+    height: 36px;
+    column-gap: 12px;
+}
+
+/* ====== ({ Header: Trigger Search }) ====== */
+#trigger-search:hover { border-color: var(--primary-color); }
+#trigger-search {
+    border: 1px solid var(--zink-color-200);
+    display: flex;
+    align-items: center;
+    height: inherit;
+    border-radius: 6px;
+    padding: 0px 12px;
+    font-size: 14px;
+    color: #a1a1aa;
+    column-gap: 8px;
+    cursor: pointer;
+    background: var(--white-color);
+    transition: border-color .1s ease-in-out;
+}
+
+span.placeholder-text {
+    position: relative;
+    top: 1px;
+}
+
+kbd.kbd {
+    margin-left: 40px;
+    padding: 2px 6px;
+    background: linear-gradient(rgb(255 255 255) 0%, rgb(240 241 245) 100%);
+    border: 1px solid var(--zink-color-200);
+    border-radius: 4px;
+    font-family: var(--font-cascadia-code), monospace;
+    font-size: 12px;
+    color: #a1a1aa;
+}
+
+/* ====== ({ Header: Started & Donation }) ====== */
+a.hua-btn {
+    display: flex;
+    align-items: center;
+    height: inherit;
+    background: linear-gradient(179deg, #fff 0%, #f0f1f5 100%);
+    border: var(--zink-color-200) 1px solid;
+    border-radius: 6px;
+    padding: 0px 12px;
+    column-gap: 8px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #696969;
+    transition: all .2s ease-in-out;
+}
+
+.get-started:hover {
+    color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+}
+
+.donation { 
+    color: green !important;
+    border-color:green !important;
+}
+
+.donation:hover { 
+    color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important; 
+}
+
+svg.boxi-user-circle,
+svg.boxi-donation {
+    position: relative;
+    bottom: 1px;
+}
