@@ -1,0 +1,12 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "omdb",
+	"main": ".open-next/worker.js",
+	"compatibility_date": "2026-09-16",
+	"compatibility_flags": ["global_fetch_strictly_public"],
+	"assets": { "binding": "ASSETS", "directory": ".open-next/assets" },
+	"images": { "binding": "IMAGES" },
+	"services": [{ "binding": "WORKER_SELF_REFERENCE", "service": "omdb" }],
+	"observability": { "enabled": true },
+	"upload_source_maps": true
+}
