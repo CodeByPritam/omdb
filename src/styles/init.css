@@ -72,7 +72,7 @@ a.elm.active {
 .rsb {
     display: flex;
     align-items: center;
-    height: 36px;
+    height: 34px;
     column-gap: 12px;
 }
 
@@ -117,7 +117,7 @@ a.hua-btn {
     background: linear-gradient(179deg, #fff 0%, #f0f1f5 100%);
     border: var(--zink-color-200) 1px solid;
     border-radius: 6px;
-    padding: 0px 12px;
+    padding: 0px 10px;
     column-gap: 8px;
     font-size: 14px;
     font-weight: 400;

@@ -16,9 +16,10 @@ export default function Header() {
                 </Link>
                 <div className="msb main-menu">
                     <Link href={"/home"} className="elm">Home</Link>
-                    <Link href={"/apikey"} className="elm">APIs</Link>
-                    <Link href={"/docs"} className="elm active">Docs</Link>
-                    <Link href={"/Contact"} className="elm">Contact</Link>
+                    <Link href={"/pricing-tiers"} className="elm">Pricing</Link>
+                    <Link href={"/docs/getting-started"} className="elm active">Docs</Link>
+                    <Link href={"/get-api-key"} className="elm">API Key</Link>
+                    <Link href={"/contact"} className="elm">Contact</Link>
                 </div>
                 <div className="rsb">
                     <div id="trigger-search">
