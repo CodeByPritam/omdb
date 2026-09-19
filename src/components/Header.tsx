@@ -15,7 +15,7 @@ export default function Header() {
                     <Image src={"/images/master-logo.png"} alt="Omdb" height={1920} width={1080} loading="eager"></Image>
                 </Link>
                 <div className="msb main-menu">
-                    <Link href={"/home"} className="elm">Home</Link>
+                    <Link href={"/"} className="elm">Home</Link>
                     <Link href={"/pricing-tiers"} className="elm">Pricing</Link>
                     <Link href={"/docs/getting-started"} className="elm active">Docs</Link>
                     <Link href={"/get-api-key"} className="elm">API Key</Link>
