@@ -8,6 +8,9 @@
   --white-color: #ffffff;
   --black-color: #000000;
   --zink-color-200: #e4e4e7;
+  --font-geist: var(--font-family-geist), sans-serif;
+  --font-sora: var(--font-family-sora), sans-serif;
+  --font-cascadia-code: var(--font-family-cascadia-code), monospace;
 }
 
 /* ================================================== */
@@ -18,7 +21,7 @@ body {
   padding: 0px 0px;
   margin: 0px 0px;
   box-sizing: border-box;
-  font-family: var(--font-geist), sans-serif;
+  font-family: var(--font-geist);
 }
 
 ol,ul,li { list-style: none; }

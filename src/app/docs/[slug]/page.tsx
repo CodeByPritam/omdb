@@ -2,10 +2,10 @@ import type { Metadata } from "next";
 import "@/styles/docs.css";
 import LeftSideAsideBar from "@/components/docs/LeftSideAsideBar";
 
-// Omdb ({ Meta })
+// NextJS ({ Metas For Docs })
 export const metadata: Metadata = {
-    title: "Omdb API Documentation - The Open Movie Database For Developers.",
-    description: "The OMDb API is a RESTful web service to obtain movie and other media information.",
+    title: "Omdb Api Documentation - The Open Movie Database Api Documentation for Developers.",
+    description: "Official documentation for the OMDb API, a RESTful web service for accessing movie and other media information..",
 };
 
 // Export Page ({ Docs })

@@ -1,13 +1,7 @@
 import {
-    Poppins,
-    Inter,
-    Source_Sans_3,
-    Cascadia_Code,
-    Geist,
-    Roboto,
-    Karla,
-    Montserrat,
-    Sora,
+    Poppins, Inter, Source_Sans_3,
+    Cascadia_Code, Geist, Roboto,
+    Karla, Montserrat, Sora,
 } from 'next/font/google';
 
 // Load Font ({ Poppins })
@@ -15,7 +9,7 @@ export const poppins = Poppins({
     subsets: ['latin'],
     weight: ['200', '300', '400', '500', '600', '700', '800', '900'],
     style: ['normal', 'italic'],
-    variable: '--font-poppins',
+    variable: '--font-family-poppins',
     display: 'swap',
 });
 
@@ -24,7 +18,7 @@ export const inter = Inter({
     subsets: ['latin'],
     weight: ['200', '300', '400', '500', '600', '700', '800', '900'],
     style: ['normal', 'italic'],
-    variable: '--font-inter',
+    variable: '--font-family-inter',
     display: 'swap',
 });
 
@@ -33,7 +27,7 @@ export const sourceSans3 = Source_Sans_3({
     subsets: ['latin'],
     weight: ['200', '300', '400', '500', '600', '700', '800', '900'],
     style: ['normal', 'italic'],
-    variable: '--font-source-sans-3',
+    variable: '--font-family-source-sans-3',
     display: 'swap',
 });
 
@@ -42,7 +36,7 @@ export const cascadiaCode = Cascadia_Code({
     subsets: ['latin'],
     weight: ['200', '300', '400', '500', '600', '700'],
     style: ['normal', 'italic'],
-    variable: '--font-cascadia-code',
+    variable: '--font-family-cascadia-code',
     display: 'swap',
     fallback: ['monospace'],
     adjustFontFallback: false,
@@ -53,7 +47,7 @@ export const geist = Geist({
     subsets: ['latin'],
     weight: ['200', '300', '400', '500', '600', '700', '800', '900'],
     style: ['normal', 'italic'],
-    variable: '--font-geist',
+    variable: '--font-family-geist',
     display: 'swap',
 });
 
@@ -62,7 +56,7 @@ export const roboto = Roboto({
     subsets: ['latin'],
     weight: ['200', '300', '400', '500', '700', '800', '900'],
     style: ['normal', 'italic'],
-    variable: '--font-roboto',
+    variable: '--font-family-roboto',
     display: 'swap',
 });
 
@@ -71,7 +65,7 @@ export const karla = Karla({
     subsets: ['latin'],
     weight: ['200', '300', '400', '500', '600', '700', '800'],
     style: ['normal', 'italic'],
-    variable: '--font-karla',
+    variable: '--font-family-karla',
     display: 'swap',
 });
 
@@ -80,7 +74,7 @@ export const montserrat = Montserrat({
     subsets: ['latin'],
     weight: ['200', '300', '400', '500', '600', '700', '800', '900'],
     style: ['normal', 'italic'],
-    variable: '--font-montserrat',
+    variable: '--font-family-montserrat',
     display: 'swap',
 });
 
@@ -88,6 +82,6 @@ export const montserrat = Montserrat({
 export const sora = Sora({
     subsets: ['latin'],
     weight: ['200', '300', '400', '500', '600', '700', '800'],
-    variable: '--font-sora',
+    variable: '--font-family-sora',
     display: 'swap',
 });
