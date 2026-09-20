@@ -34,6 +34,43 @@ aside#asidebar-left {
     row-gap: 2px;
 }
 
+/* ====== ({ Side Bar:Collapsable }) ====== */
+.menu-section { width: 100%; }
+button.menu-button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    color: #71717A;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+}
+
+.menu-section.open .menu-content {
+    display: grid;
+    grid-template-rows: 1fr;
+}
+
+.menu-content {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 300ms ease-in-out;
+}
+
+.menu-content-inner {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2px;
+    margin-top: 2px;
+    margin-left: 18px;
+    min-height: 0;
+    overflow: hidden;
+}
+
 /* ====== ({ Side Bar: Link }) ====== */
 a.sidebar-link,
 button.to-prt {
@@ -51,7 +88,8 @@ button.to-prt {
     transition: all 0.1s ease-in-out;
 }
 
-a.sidebar-link:hover {
+a.sidebar-link:hover,
+button.menu-button:hover {
     color: #18181B;
     background: #f7f7f7;
 }
@@ -92,7 +130,7 @@ button.to-prt:hover {
     color: #18181b;
 }
 
-/* ====== ({ Side Bar: Link }) ====== */
+/* ====== ({ Side Bar Right: Method }) ====== */
 span.method.method-disable { display: none; }
 span.method {
     font-family: var(--font-sora);
@@ -121,4 +159,23 @@ span.method {
 .method-del {
     background-color: #fef2f2;
     color: #DC2626;
+}
+
+/* ====== ({ Side Bar Right: On This Page Dummy }) ====== */
+span.on-this-page-title {
+    display: block;
+    margin-bottom: 12px;
+    font-size: 12px;
+    color: #a1a1aa;
+    font-weight: 600;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+}
+
+p.on-this-page-description {
+    font-size: 14px;
+    font-weight: 400;
+    color: #71717a;
+    line-height: 20px;
 }
