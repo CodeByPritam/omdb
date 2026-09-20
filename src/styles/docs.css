@@ -93,6 +93,7 @@ button.to-prt:hover {
 }
 
 /* ====== ({ Side Bar: Link }) ====== */
+span.method.method-disable { display: none; }
 span.method {
     font-family: var(--font-sora);
     font-size: 10px;
